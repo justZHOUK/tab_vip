@@ -1,0 +1,75 @@
+
+<view>
+
+<tabs 
+tabs="{{[{title: '离我最近'},{title: '评分最高'}]}}" 
+activeTab="1" 
+onChange='swtich_tab'
+tabBarActiveTextColor='#cecece'
+>
+  <tab-content key="0">
+    <view>
+      <list>
+  <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店1
+    <view class="am-list-brief">距离您0.5km</view>
+    <view slot="extra">评分:9.8</view>
+  </list-item>
+  <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店2
+    <view class="am-list-brief">距离您1.5km</view>
+    <view slot="extra">评分:9.3</view>
+  </list-item>
+
+   <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店3
+    <view class="am-list-brief">距离您1.6km</view>
+    <view slot="extra">评分:9.1</view>
+  </list-item>
+</list>
+    </view>
+  </tab-content>
+
+
+
+  <tab-content key="1">
+    <view><list>
+  <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店1
+    <view class="am-list-brief">距离您0.5km</view>
+    <view slot="extra">评分:9.8</view>
+  </list-item>
+  <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店2
+    <view class="am-list-brief">距离您1.5km</view>
+    <view slot="extra">评分:9.3</view>
+  </list-item>
+
+   <list-item 
+    thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" 
+    arrow="{{true}}" 
+    multipleLine="{{true}}">
+    门店3
+    <view class="am-list-brief">距离您1.6km</view>
+    <view slot="extra">评分:9.1</view>
+  </list-item>
+</list></view>
+  </tab-content>
+</tabs>
+
+</view>

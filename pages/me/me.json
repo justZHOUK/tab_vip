@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "个人中心",
+  "titleBarColor": "#494e62",
+  "usingComponents": {
+    "card": "mini-antui/es/card/index",
+    "list-item": "mini-antui/es/list/list-item/index",
+    "list": "mini-antui/es/list/index"
+  }
+}

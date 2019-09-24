@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/shops/shops",
+    "pages/index/index",
+    "pages/shop_reg/shop_reg",
+    
+    "pages/me/me",
+    "pages/logs/logs",
+    
+    "pages/register_weit/register_weit"
+  ],
+  "window": {
+    "defaultTitle": "泰博会员"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/home.png",
+        "activeIcon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/home_.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/shops/shops",
+        "icon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/shops.png",
+        "activeIcon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/shops_.png",
+        "name": "附近门店"
+      },
+      {
+        "pagePath": "pages/me/me",
+         "icon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/me.png",
+        "activeIcon":"https://tab-mini.oss-cn-hangzhou.aliyuncs.com/me_.png",
+        "name": "我的"
+      }
+    ]
+  }
+}

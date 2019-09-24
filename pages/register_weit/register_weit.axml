@@ -1,0 +1,5 @@
+<view>
+  
+  <page-result type="empty" title="您的店铺正在审核中" brief="审核周期：1-3个工作日">
+  </page-result>
+</view>

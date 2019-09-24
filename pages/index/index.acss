@@ -1,0 +1,140 @@
+/* required by usingComponents */
+.bg1{
+  height: auto;
+}
+.top{
+  
+  background: rgb(73,78,98);
+  color:#fff;
+  text-align: center;
+  padding: 20rpx 0;
+  font-weight: bold;
+  letter-spacing: 3rpx;
+
+
+}
+.triangle{
+ float: left;
+ position: absolute;
+ width: 100%;
+ 
+}
+.triangle image{
+  width: 100%;
+}
+.bg_red{
+  position: absolute;
+  width: 84%;
+  margin-left: 8%;
+  height: 100%;
+  border-radius: 30rpx;
+  background: rgb(194,51,39);
+  top:150rpx;
+}
+
+.bg_origin{
+  position: absolute;
+  width: 80%;
+  height: 300rpx;
+  margin-left: 10%;
+  border-radius: 20rpx;
+  
+  /* background-size: cover; */
+  background: rgb(207,159,95);
+  /* background: linear-gradient(90deg,#dcbb70  20%,rgb(180,130,72) 100%); */
+  background-image: url('https://tab-mini.oss-cn-hangzhou.aliyuncs.com/dw2.png');
+  background-size: contain;
+  top:-50rpx;
+  -moz-box-shadow:0px 2px 13px #666666; -webkit-box-shadow:0px 2px 13px #666666; box-shadow:0px 2px 13px #666666;
+}
+
+.bg_origin image{
+  margin: 20rpx;
+  width: 40%;
+
+}
+.bg_light{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-image: url('https://tab-mini.oss-cn-hangzhou.aliyuncs.com/bg_tab.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  background-color: #fff;
+  top:10%;
+  border-radius: 0 0 30rpx 30rpx;
+   -moz-box-shadow:0px 2px 13px #666666; -webkit-box-shadow:0px 2px 13px #666666; box-shadow:0px 2px 13px #666666;
+
+}
+.tx{
+  position: absolute;
+  z-index: 3;
+  top:90rpx;
+}
+.tx image{
+  width: 100%;
+}
+.tit{
+  margin-top: 5%;
+  text-align: center;
+}
+.title{
+  font-size: 35rpx;
+  letter-spacing: 5rpx;
+  color: rgb(127,79,33);
+  font-weight: bolder;
+}
+.sub_title{
+  margin-top: 20rpx;
+  letter-spacing: 5rpx;
+  color: black;
+}
+.vip{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5rpx;
+}
+.vip image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.headimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size: 30rpx;
+}
+.headimg image{
+
+  z-index: 3;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100rpx;
+  border: 1px solid #fff;
+}
+.logo{
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+}
+.left_line{
+  height: 1px;
+  width: 30%;
+  background: #cecece;
+}
+.left_right{
+  height: 1px;
+  width: 30%;
+  background: #cecece;
+}
+.logo_img image{
+  height: 50rpx;
+  width: 250rpx;
+}

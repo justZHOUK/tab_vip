@@ -1,0 +1,7 @@
+page {
+  background: #f7f7f7;
+  font-family: "微软雅黑";
+}
+.hidden{
+  display: none;
+}

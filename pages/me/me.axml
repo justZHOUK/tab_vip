@@ -1,0 +1,47 @@
+<view>
+  <view class='head'>
+    <view class='nickname'>{{nickname}}</view>
+    <view class='nav'>
+      <view class='headimg'><image mode="scaleToFill" src="{{avatar}}"/></view>
+      <view class='nav_list'>
+        <view class='nav_item'>
+          <view class='ico'><image mode="scaleToFill" src="https://main.tnxls.vip/static/alipay/images/hg.png"/></view>
+          <view class='text'>会员状态</view>
+        </view>
+
+        <view class='nav_item'>
+          <view class='ico'><image mode="scaleToFill" src="https://main.tnxls.vip/static/alipay/images/message.png"/></view>
+          <view class='text'>消息中心</view>
+        </view>
+
+        <view class='nav_item'>
+          <view class='ico'><image mode="scaleToFill" src="https://main.tnxls.vip/static/alipay/images/tj.png"/></view>
+          <view class='text'>推荐有礼</view>
+        </view>
+
+        <view class='nav_item'>
+          <view class='ico'><image mode="scaleToFill" src="https://main.tnxls.vip/static/alipay/images/beg.png"/></view>
+          <view class='text'>会员卡包</view>
+        </view>
+
+        
+      </view>
+    </view>
+    
+  </view>
+
+  <view class='item'>
+
+    <list>
+      <list-item thumb="https://main.tnxls.vip/static/alipay/images/location2.png" arrow="{{true}}">收货信息
+      </list-item>
+
+      <list-item thumb="https://main.tnxls.vip/static/alipay/images/person.png" arrow="{{true}}">信息完善
+      </list-item>
+
+       <list-item thumb="https://main.tnxls.vip/static/alipay/images/shop.png" arrow="{{true}}" onClick="to_shop_reg">商家认证
+      </list-item>
+    </list>
+ 
+  </view>
+</view>

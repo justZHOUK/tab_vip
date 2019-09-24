@@ -1,0 +1,72 @@
+<view>
+<view class='bg1'>
+  <view class='top'>天能泰博会员招募</view>
+  <view class='triangle'>
+    <image mode="widthFix" src="https://tab-mini.oss-cn-hangzhou.aliyuncs.com/triangle.png"/>
+  </view>
+  <view class="bg_red">
+    <view class='bg_origin'>
+      <view class='headimg'>
+        <image mode="scaleToFill" src="{{avatar}}"/>
+        <text>{{nickName}}</text>
+        </view>
+      
+    </view>
+    
+    <view class="con">
+      <view class='tx'><image mode="widthFix" src="https://tab-mini.oss-cn-hangzhou.aliyuncs.com/tx.png"/></view>
+      <view class="bg_light">
+        <view class="vip">
+          <image mode="scaleToFill" src="https://tab-mini.oss-cn-hangzhou.aliyuncs.com/icon_tabbar.png"/>
+          <text>天能泰博会员</text>
+        </view>
+        <view class='tit'>
+          <view class='title'>开通天能泰博会员尊享礼遇</view>
+          <view class='sub_title'>//天能泰博会员可享以下特权//</view>
+          
+          <grid list="{{[
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico1.png',text: '首单立减',desc: '换天能立减20元',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico2.png',text: '8大保养',desc: '爱车免费保养',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico3.png',text: '10万元保险',desc: '4月/月高额保险',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico4.png',text: '流量10G/月',desc: '流量随便花',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico5.png',text: '天猫超市券',desc: '100元天猫超市券',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico6.png',text: '花呗红包',desc: '花呗红包送不停',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico7.png',text: '影音会员',desc: '爱奇艺&咪咕',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico8.png',text: '余额宝体验金',desc: '免费余额宝体验金',},
+          {icon: 'https://tab-mini.oss-cn-hangzhou.aliyuncs.com/ico9.png',text: '会员专属爆品',desc: '骑行必备',},
+          ]}}"
+          columnNum="{{3}}"
+          ></grid>
+           
+          <view class='logo'>
+            <view class='left_line'></view>
+            <view class='logo_img'><image mode="aspectFit" src="https://tab-mini.oss-cn-hangzhou.aliyuncs.com/tn_logo.png"/></view>
+            <view class='left_right'></view>
+          </view> 
+        </view>
+      
+      </view>
+    </view>
+  </view>
+</view>
+
+ <!-- <button size="default" type="primary" onTap="getcode">getcode</button>
+  <button  open-type="getAuthorize" 
+onGetAuthorize="onGetAuthorize" onError="onAuthError" 
+scope='userInfo'>
+    会员基础信息授权
+</button> -->
+  <!-- <swiper indicator-dots="{{true}}" >
+    <block a:for="{{['#4A90E2','#F5A623']}}">
+      <swiper-item >
+        <view style="background-color: {{item}};width:100%;height:300rpx"/>
+      </swiper-item>
+    </block>
+  </swiper> -->
+
+<!-- <card thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" title="Title" subTitle="subtitle" />
+<card thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" title="Title" subTitle="subtitle" />
+<card thumb="https://gw.alipayobjects.com/zos/rmsportal/VBqNBOiGYkCjqocXjdUj.png" title="Title" subTitle="subtitle" /> -->
+
+</view>
+

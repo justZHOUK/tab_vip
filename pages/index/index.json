@@ -1,0 +1,9 @@
+{
+  "titleBarColor": "#494e62",
+  "usingComponents": {
+    "grid": "mini-antui/es/grid/index",
+    "card": "mini-antui/es/card/index",
+    "flex-item": "mini-antui/es/flex/flex-item/index",
+    "flex": "mini-antui/es/flex/index"
+  }
+}

@@ -1,0 +1,89 @@
+<view>
+  
+  <form onSubmit="register" class='form'>
+    
+    <input-item
+    placeholder='店铺名称'
+    name='shop_name'
+    onInput='get_shop_name'
+    clear='false'
+    >
+    店铺名称
+    </input-item>
+
+   <input-item
+    placeholder='店主姓名'
+    name='name'
+    onInput='get_name'
+    clear='false'
+    >
+    老板姓名
+    </input-item>
+    
+    <input-item
+    placeholder='店主手机号'
+    name='phone'
+    type='number'
+    onInput='get_phone'
+    >
+    手机号 
+    <button 
+    size="mini" 
+    type="primary" 
+    slot='extra' 
+    loading={{loading}}
+    disabled={{disabled}}
+    onTap="sendMsg"
+    >{{code_btn_name}}</button> 
+    </input-item>
+
+
+    <input-item
+    placeholder='短信验证码'
+    name='code'
+    onInput='get_code'
+    >
+    验证码
+    </input-item> 
+    
+    <input-item
+    name='address'
+    onInput='get_address'
+    value='{{address}}'
+    >地址
+    </input-item>
+   
+    <label class='photos_label'>
+    <text class='label'>店铺照片</text>
+    <view class="photos">
+      <view class='photo_box'>
+          <image 
+          mode="aspectFit" 
+          src="{{default_img1}}"
+          onTap="choose_img1"
+          />
+          <text>门头照片</text>
+      </view>
+      
+      <view class='photo_box'>
+          <image 
+          mode="aspectFit" 
+          src="{{default_img2}}"
+          onTap="choose_img2"
+          />
+          <text>店内照片</text>
+      </view>
+    </view>
+        <input placeholder="Input" class='hidden' name='mt' value="{{mt}}" />
+    <input placeholder="Input" class='hidden' name='md' value="{{md}}" />
+    <input placeholder="Input" class='hidden' name='longitude' value="{{longitude}}" />
+    <input placeholder="Input" class='hidden' name='latitude' value="{{latitude}}" />
+    <input placeholder="Input" class='hidden' name='province' value="{{province}}" />
+    <input placeholder="Input" class='hidden' name='city' value="{{city}}" />
+    <input placeholder="Input" class='hidden' name='district' value="{{district}}" />
+
+    
+  </label>
+  <button size="default" type="primary" formType="submit" class="btn">提交</button>
+</form>
+</view>
